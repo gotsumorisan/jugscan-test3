@@ -1,0 +1,494 @@
+{
+  "summary": {
+    "passed": 51,
+    "failed": 0,
+    "errors": []
+  },
+  "results": [
+    {
+      "name": "embedded_data_images_decode",
+      "ok": true,
+      "detail": {
+        "count": 20,
+        "items": [
+          {
+            "i": 0,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 105616
+          },
+          {
+            "i": 1,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 123750
+          },
+          {
+            "i": 2,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 70084
+          },
+          {
+            "i": 3,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 81636
+          },
+          {
+            "i": 4,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 79424
+          },
+          {
+            "i": 5,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 86090
+          },
+          {
+            "i": 6,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 59946
+          },
+          {
+            "i": 7,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 60490
+          },
+          {
+            "i": 8,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 32480
+          },
+          {
+            "i": 9,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 48752
+          },
+          {
+            "i": 10,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 63384
+          },
+          {
+            "i": 11,
+            "ok": true,
+            "format": "PNG",
+            "bytes": 11972
+          },
+          {
+            "i": 12,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 67610
+          },
+          {
+            "i": 13,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 9208
+          },
+          {
+            "i": 14,
+            "ok": true,
+            "format": "PNG",
+            "bytes": 11972
+          },
+          {
+            "i": 15,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 26546
+          },
+          {
+            "i": 16,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 14430
+          },
+          {
+            "i": 17,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 20388
+          },
+          {
+            "i": 18,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 19442
+          },
+          {
+            "i": 19,
+            "ok": true,
+            "format": "WEBP",
+            "bytes": 27972
+          }
+        ]
+      }
+    },
+    {
+      "name": "version_final",
+      "ok": true,
+      "detail": "2026/10/6 (火) v1.4.0"
+    },
+    {
+      "name": "initial_store_screen",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "runtime_images_loaded",
+      "ok": true,
+      "detail": [
+        {
+          "complete": true,
+          "w": 62,
+          "h": 68,
+          "alt": ""
+        },
+        {
+          "complete": true,
+          "w": 760,
+          "h": 253,
+          "alt": "JUG SCAN"
+        },
+        {
+          "complete": true,
+          "w": 420,
+          "h": 280,
+          "alt": ""
+        },
+        {
+          "complete": true,
+          "w": 420,
+          "h": 280,
+          "alt": ""
+        },
+        {
+          "complete": true,
+          "w": 420,
+          "h": 280,
+          "alt": ""
+        },
+        {
+          "complete": true,
+          "w": 420,
+          "h": 280,
+          "alt": ""
+        },
+        {
+          "complete": true,
+          "w": 420,
+          "h": 280,
+          "alt": ""
+        },
+        {
+          "complete": true,
+          "w": 420,
+          "h": 280,
+          "alt": ""
+        },
+        {
+          "complete": true,
+          "w": 62,
+          "h": 68,
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "store_add_select",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "blank_bb_rejected",
+      "ok": true,
+      "detail": "BBを入力してください（0回なら「0」）"
+    },
+    {
+      "name": "blank_rb_rejected",
+      "ok": true,
+      "detail": "RBを入力してください（0回なら「0」）"
+    },
+    {
+      "name": "record_504_saved",
+      "ok": true,
+      "detail": "1台"
+    },
+    {
+      "name": "probabilities_correct",
+      "ok": true,
+      "detail": "台番\n504\n累計G\n7058\nBB\n28\nRB\n25\nREG\n1/282\n合算\n1/133\nファンキー2\nタップで編集"
+    },
+    {
+      "name": "explicit_zero_counts_accepted",
+      "ok": true,
+      "detail": "台番\n504\n累計G\n7058\nBB\n28\nRB\n25\nREG\n1/282\n合算\n1/133\nファンキー2\nタップで編集\n台番\n503\n累計G\n100\nBB\n0\nRB\n0\nREG\n—\n合算\n—\nファンキー2\nタップで編集"
+    },
+    {
+      "name": "duplicate_modal_shown",
+      "ok": true,
+      "detail": "504番台はすでに登録されています。\n現在のデータを上書きしますか？"
+    },
+    {
+      "name": "duplicate_cancel_preserves_form",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate_overwrite_no_extra",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate_overwrite_value",
+      "ok": true,
+      "detail": "台番\n504\n累計G\n7100\nBB\n29\nRB\n25\nREG\n1/284\n合算\n1/131\nファンキー2\nタップで編集\n台番\n503\n累計G\n100\nBB\n0\nRB\n0\nREG\n—\n合算\n—\nファンキー2\nタップで編集"
+    },
+    {
+      "name": "sort_machine_number",
+      "ok": true,
+      "detail": [
+        "503",
+        "504",
+        "505"
+      ]
+    },
+    {
+      "name": "sort_reg_best_first",
+      "ok": true,
+      "detail": [
+        "504",
+        "505",
+        "503"
+      ]
+    },
+    {
+      "name": "edit_controls_visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "edit_machine_change_preserves_form",
+      "ok": true,
+      "detail": {
+        "n": "504",
+        "g": "7100",
+        "b": "29",
+        "r": "25"
+      }
+    },
+    {
+      "name": "edit_machine_change_saved",
+      "ok": true,
+      "detail": "台番\n504\n累計G\n7100\nBB\n29\nRB\n25\nREG\n1/284\n合算\n1/131\nマイジャグV\nタップで編集"
+    },
+    {
+      "name": "unsaved_machine_warning",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "unsaved_machine_cancel_preserves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "unsaved_store_warning",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "unsaved_store_cancel_stays_scan",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "store_b_record_saved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "history_record_visible",
+      "ok": true,
+      "detail": "台番\n101\n累計G\n4000\nBB\n16\nRB\n14\nREG\n1/286\n合算\n1/133\nマイジャグVI"
+    },
+    {
+      "name": "history_store_selected",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "store_rename_updates_list",
+      "ok": true,
+      "detail": "美幌ひまわり店\nタップして開始\n›\n名前変更\n削除\nロイヤル網走店\nタップして開始\n›\n名前変更\n削除"
+    },
+    {
+      "name": "store_rename_updates_history_option",
+      "ok": true,
+      "detail": [
+        "美幌ひまわり店",
+        "ロイヤル網走店"
+      ]
+    },
+    {
+      "name": "record_delete_confirm",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "record_deleted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "store_delete_confirm_mentions_record",
+      "ok": true,
+      "detail": "美幌ひまわり店 と保存済み 1台のデータを削除します。この操作は元に戻せません。"
+    },
+    {
+      "name": "store_b_deleted",
+      "ok": true,
+      "detail": "ロイヤル網走店\nタップして開始\n›\n名前変更\n削除"
+    },
+    {
+      "name": "restore_current_store",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no_horizontal_overflow_360",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "no_horizontal_overflow_375",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "no_horizontal_overflow_390",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "no_horizontal_overflow_393",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "no_horizontal_overflow_402",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "no_horizontal_overflow_430",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "all_visible_targets_min44",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "keyboard_input_hides_nav",
+      "ok": true,
+      "detail": {
+        "opacity": "0",
+        "pointer": "none",
+        "transform": "matrix(1, 0, 0, 1, -201, 81)"
+      }
+    },
+    {
+      "name": "keyboard_mode_no_overflow",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "manifest_id_stable",
+      "ok": true,
+      "detail": {
+        "name": "JUG SCAN",
+        "short_name": "JUG SCAN",
+        "description": "ジャグラー巡回用の台データ記録アプリ",
+        "start_url": "./",
+        "scope": "./",
+        "display": "standalone",
+        "background_color": "#02050c",
+        "theme_color": "#020713",
+        "icons": [
+          {
+            "src": "icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ],
+        "id": "./"
+      }
+    },
+    {
+      "name": "manifest_start_scope_stable",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "icon_180_size",
+      "ok": true,
+      "detail": [
+        180,
+        180
+      ]
+    },
+    {
+      "name": "icon_192_size",
+      "ok": true,
+      "detail": [
+        192,
+        192
+      ]
+    },
+    {
+      "name": "icon_512_size",
+      "ok": true,
+      "detail": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "sw_final_cache_key",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "sw_precache_shell",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "no_duplicate_html_ids",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "no_missing_relative_resources",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}
